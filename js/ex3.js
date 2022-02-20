@@ -15,10 +15,11 @@ for(var i=1;i<senha.length;i++){
     }
     sub = [];
 }
+
 alert(contador);
 
 function verificaAnagrama(fraseA,fraseB){
-    let a = fraseA.split("").sort().join(""); //separa, ordena e junta a string
+    let a = fraseA.split("").sort().join("");
     let b = fraseB.split("").sort().join("");
 
     if(a === b){
